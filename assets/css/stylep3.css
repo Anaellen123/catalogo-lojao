@@ -1,0 +1,127 @@
+/*estilo do titulo "Itens do pedido"*/
+#title-2{
+    height: 110px;
+    display: flex;
+    align-items: end;
+}
+
+/*estilo do container onde armazena os containes do pedido, local de entrega, totais e buttons*/
+#daughter{
+    height: 500px;
+}
+/*coluna onde armazena os containers onde fica o item e quantidade*/
+#column-block-item-one{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+}
+/*container que armazena o item*/
+#block-item-one{
+    background-color: blueviolet;
+    height: 90px;
+}
+/*container que armazena quantidade*/
+#block-quantidade-one{
+    height: 90px;
+    width: 15%;
+    background-color: aquamarine;
+}
+/*estilo do container que armazena o titulo "Local da entrega"*/
+#title-3{
+    height: 30px;
+    display: flex;
+    align-items: end;
+}
+
+/*estilo da coluna que armazena a img de local e o endereço em texto*/
+#column-block-item-two{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+/*estilo do container que contem a img de local e o endereço em texto*/
+#block-endereco{
+    height: 50px;
+
+}
+/*estilo da tag p do endereço e texto*/
+#block-endereco p{
+    font-size: 12.5px;
+}
+
+/*estilo do icone bootstrap que está simulando a img de local*/
+#quadro{
+    font-size: 35px;
+}
+/*estilo do container que armazena os valores totais*/
+#block-total{
+    height: 180px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+/*estilo do container de posicionamento e que agrupa os totais*/
+#block-top-sub{
+    width: 25%;
+    height: 160px;
+    
+}
+
+/*estilo de telas apartir da medida de 1100pixels*/
+@media (max-width:1100px){
+    /*estilo do container do progresso numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 200px;
+    }
+}
+/*estilo de telas apartir da medida de 991pixels*/
+@media (max-width:991px){
+    /*estilo do container do progresso numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 150px;
+    }
+}
+/*estilo de telas apartir da medida de 770pixels*/
+@media (max-width:770px){
+    /*estilo do container que armazena o titulo "Itens do pedido"*/
+    #title-2{
+        height: 50px;
+    }
+    /*estilo do container que armazena o titulo "Local da entrega"*/
+    #title-3{
+       height: 50px;
+    }
+   
+}
+/*estilo de telas apartir da medida de 767pixels*/
+@media (max-width:767px){
+    /*estilo do container progresso numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 115px;
+    }
+    /*estilo do container que armazena os valores totais*/
+    #block-top-sub{
+        width: 40%;
+        height: 160px;
+        
+    }
+   
+}
+/*estilo de telas apartir da medida de 420pixels*/
+@media (max-width:420px){
+    /*estilo do container progresso numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 90px;
+    }
+    /*estilo do container que armazena os valores totais*/
+    #block-top-sub{
+        width: 55%;
+        height: 160px;
+        
+    }
+   
+}

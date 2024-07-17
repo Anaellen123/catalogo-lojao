@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/stylep2.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--container mãe-->
+   <div class="container" id="monther">
+        <!--container que agrupa o container do button fechar e o progresso numeral das paginas-->
+        <div class="container" id="father">
+            <!--container de centralização que agrupa o container do button e progresso numeral das paginas-->
+            <div class="container" id="block-top">
+                <!--container do progresso numeral-->
+                <div class="container" id="number-progress-top">
+                    <!--container do numero 1  do progresso numeral-->
+                    <div class="container" id="one">
+                        <span class="number one" id="position-one">1</span>
+                    
+                    </div>
+                    <!--tag de traço de separação dos numros do progresso numeral-->
+                    <span id="tras-one">-</span>
+    
+                    <!--container do numero 2  do progresso numeral-->
+                    <div class="container" id="two">
+                        <span class="number two active" id="position-two">2</span>
+                    </div>
+                    <!--tag de traço de separação dos numros do progresso numeral-->
+                    <span id="tras-two">-</span>
+
+                    <!--container do numero 3  do progresso numeral-->
+                    <div class="container" id="three">
+                        <span class="number three" id="position-three">3</span>
+                    </div>
+    
+                </div>
+                <!--container do button de fechar-->
+                <div class=" container" id="close-top">
+                    
+                    <button type="button" class="btn btn-dark">Fechar</button>
+                </div>
+    
+            </div>
+        </div>
+        <!--container do titulo-->
+        <div class="container" id="title">
+            <h5>Endereço de entrega :</h5>
+
+        </div>
+        <!--container dos inputs-->
+        <div class="container" id="input-column">
+            <!--formulario feito com divisões em container para reponder bem a responsividade -->
+            <!--e assim agrupar o envio das informações em um unico button-->
+            <form action="#">
+                <!--primeira coluna de inputs-->
+                <div class="container" id="input-column-one">
+                    <div class="container" id="prymari-input">
+                        <label for="rua">Endereço :</label><br>
+                        <input type="text" id="rua" name="rua">
+                
+                    </div>
+                    <div class="container" id="second-input">
+                    </div>
+                    <div class="container" id="three-input">
+                        <label for="numero">Numero :</label><br>
+                        <input type="text" id="numero" name="numero">
+                    </div>
+                </div>
+                <!--segunda coluna de inputs-->
+                <div class="container" id="input-column-second"> 
+                    <div class="container" id="prymari-input-one">
+                        <label for="rua">Ponto de referência :</label><br>
+                        <input type="text" id="rua" name="rua">
+                
+                    </div>
+                    <div class="container" id="second-input-one">
+                    </div>
+                    
+                </div>
+                <!--terceira coluna de inputs-->
+                <div class="container" id="input-column-three">
+                    <label for="troco">Troco para:</label><br>
+                    <input type="text" id="troco" name="troco">
+                    <div class="container" id="line"></div>
+                    
+                </div>
+                <!--quarta coluna com informações de total, subtotal, entrega grátis e botões o de voltar e continuar-->
+                <div class="container" id="input-column-four">
+                   <div  id="total">
+                        <span id="name1">subtotal:R$ 18,00</span><br>
+                        <span id="name2"><i class="bi bi-bicycle"></i>Entrega Grátis</span><br>
+                        <span id="name3">Total:18,00</span><br><br>
+                        <div>
+                            <!--button de voltar para página anterior-->
+                            <button type="submit" class="btn btn-primary btn-salvar" id="button-one">Voltar</button>
+                            <!--button de que direciona as informações do form para a proxima página, chamando a próxima página-->
+                            <button type="submit" class="btn btn-primary btn-salvar" id="button-two">Revisar pedido</button>
+                        </div>
+                        
+                   </div>
+                </div>
+            </form>
+        </div>
+   </div>
+            
+
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/stylep2.css">
+    <link rel="stylesheet" href="../assets/css/stylep3.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--container mãe-->
+   <div class="container" id="monther">
+        <!--container que agrupa o container do button fechar e o progresso numeral das paginas-->
+        <div class="container" id="father">
+            <!--container de centralização que agrupa o container do button e progresso numeral das paginas-->
+            <div class="container" id="block-top">
+                <!--container do progresso numeral-->
+                <div class="container" id="number-progress-top">
+                    <!--container do numero 1  do progresso numeral-->
+                    <div class="container" id="one">
+                        <span class="number one" id="position-one">1</span>
+                    
+                    </div>
+                    <!--tag de traço de separação dos numros do progresso numeral-->
+                    <span id="tras-one">-</span>
+    
+                    <!--container do numero 2  do progresso numeral-->
+                    <div class="container" id="two">
+                        <span class="number two active" id="position-two">2</span>
+                    </div>
+                    <!--tag de traço de separação dos numros do progresso numeral-->
+                    <span id="tras-two">-</span>
+
+                    <!--container do numero 3  do progresso numeral-->
+                    <div class="container" id="three">
+                        <span class="number three" id="position-three">3</span>
+                    </div>
+    
+                </div>
+                <!--container do button de fechar-->
+                <div class=" container" id="close-top">
+                    
+                    <button type="button" class="btn btn-dark">Fechar</button>
+                </div>
+    
+            </div>
+        </div>
+        <!--container do titulo-->
+        <div class="container" id="title">
+            <h5>Resumo do pedido:</h5>
+
+        </div>
+        <!--container filha que agrupa o container, local de entrega, total e buttons-->
+        <div class="container" id="daughter">
+            <form action="#">
+                <!--container do titulo-->
+                <div class="container" id="title-2">
+                    <h6>Itens do pedido:</h6>
+                </div>
+                <!--container da coluna do item do catalogo(produto)-->
+                <div class="container" id="column-block-item-one">
+                    <div class="container" id="block-item-one">
+    
+                    </div>
+                    <div class="container" id="block-quantidade-one">
+    
+                    </div>
+    
+                </div>
+                <!--container do titulo-->
+                <div class="container" id="title-3">
+                    <h6>Local da entrega:</h6>
+                </div>
+                <!--container da coluna do endereço que será entregue-->
+                <div class="container" id="column-block-item-two">
+                    <div class="container" id="block-endereco">
+                        
+                        <p><i class="bi bi-square-fill" id="quadro"></i>  Rua c, 103, Centro, Esquina, Pix</p>
+                    </div>
+                    
+                </div>
+                <!--container da linha de divisão abaixo do endereço-->
+                <div class="container" id="line"></div>
+                <!--container de total, entrega, subtotal e buttons de voltar e enviar pedido-->
+                <div class="container" id="block-total">
+                    <!--container que posiciona as tag contendo total, entrega, subtotal e buttons de voltar e enviar pedido-->
+                    <div id="block-top-sub">
+                        <!--tag span do subtotal-->
+                        <span id="name1">subtotal:R$ 18,00</span><br>
+                        <!--tag span de entrega grátis-->
+                        <span id="name2"><i class="bi bi-bicycle"></i>Entrega Grátis</span><br>
+                        <!--tag span de total-->
+                        <span id="name3">Total:18,00</span><br><br>
+                            
+                                <!--button de voltar para página anterior-->
+                            <button type="submit" class="btn btn-primary btn-salvar" id="button-one">Voltar</button>
+                            <!--button de que direciona as informações do form para a proxima página, chamando a próxima página-->
+                            <button type="submit" class="btn btn-primary btn-salvar" id="button-two">Enviar pedido</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+   </div>
+</body>

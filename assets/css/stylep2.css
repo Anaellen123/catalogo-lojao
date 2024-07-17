@@ -1,0 +1,394 @@
+/*estilo do container mãe*/
+#monther{
+    background-color: #fffafa;
+    height: 700px;
+}
+
+/*estilo do container que agrupa o button e o progresso numeral*/
+#father{
+   height: 110px;
+  
+}
+/*estilo do container de centralização que agrupa os container do button fechar e progresso numeral*/
+#block-top{
+    display: flex;
+    align-items:end;
+    height: 80px;
+   
+}
+/*estilo do container que agrupa o progresso numeral*/
+#number-progress-top{
+   
+    width: 10%;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    right: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+ 
+}
+/*estilo do número 1 do progresso numeral*/
+#one{
+    background-color: #fF5f00;
+    height: 25px;
+    width: 25%;
+    border-radius: 60%;
+    
+   
+}
+/*estilo posicionando o numero 1 no centro de sua div*/
+#position-one{
+    position: relative;
+    right: 3px;
+}
+/*estilo do traço de separação dos números do progresso númeral*/
+#tras-one{
+    color:#fF5f00;
+}
+
+/*estilo do número 2 do progresso numeral*/
+#two{
+    background-color: #fF5f00;
+    height: 25px;
+    width: 25%;
+    border-radius: 60%;
+    
+}
+/*estilo que posiciona o número 2 no centro de sua div*/
+#position-two{
+    position: relative;
+    right: 5px;
+}
+/*estilo do traço de separação dos números do progresso númeral*/
+#tras-two{
+    color:#fF5f00;
+}
+/*estilo do númro 3 do progresso numeral*/
+#three{
+    background-color: #fff;
+    height: 25px;
+    width: 25%;
+    border-radius: 60%;
+    box-shadow: 1px 2px #cbccd1;
+}
+/*estilo que posiciona o número 3 no centro de sua div*/
+#position-three{
+    position: relative;
+    right: 5px;
+}
+
+/*estilo da div que contém o button de fechar*/
+#close-top{
+    
+    width: 8%;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+    
+}
+/*estilo do titulo "Endereço de entrega"*/
+#title{
+    height: 25px;
+    
+}
+/*estilo da primeira coluna de inputs*/
+#input-column-one{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*estilo do input que contém o nome de "Endereço"*/
+#prymari-input{
+    height: 60px;
+}
+/*estilo da caixa do input que contém o endereço*/
+#prymari-input input{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px #cbccd1;
+}
+/*estilo do titulo do input que contém o endereço*/
+#prymari-input label{
+    color: #888888;
+}
+/*estilo do segundo input onde fica o dropdown menu from Scratch que é feito com JS*/
+#second-input{
+    height: 60px;
+    background-color: palevioletred;
+    
+}
+/*estilo da caixa do terceiro input onde contém o número do endereço*/
+#three-input input{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px #cbccd1;
+}
+/*estilo do titulo do input onde contém o número do enderço*/
+#three-input label{
+    color: #888888;
+}
+/*estilo do terceiro input onde contém o número do endereço*/
+#three-input{
+    height: 60px;
+}
+
+/*estilo da terceira coluna de inputs*/
+#input-column-second{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+/*estilo do primeri input da segunda coluna onde contém o input de ponto de referencia*/
+#prymari-input-one{
+    height: 60px;
+}
+/*estilo da caixa onde cotém o ponto de referência*/
+#prymari-input-one input{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px #cbccd1;
+}
+/*estilo do titulo do input onde contém o ponto de referência*/
+#prymari-input-one label{
+    color: #888888;
+}
+/*estilo do segundo input onde fica o dropdown menu from Scratch que é feito com JS*/
+#second-input-one{
+    height: 60px;
+    background-color: palevioletred;
+    
+}
+
+
+/*estilo da terceira coluna de inputs*/
+#input-column-three{
+    height: 110px;
+  
+}
+/*estilo da caixa do input onde contém a informação de troco*/
+#input-column-three input{
+    width: 50px;
+    border: none;
+    background-color: #fffafa;
+}
+/*estilo do titulo da caixa de input onde contém a informação de troco*/
+#input-column-three label{
+    font-size: 12.5px;
+    color: #888888;
+}
+/*linha de estilo abaixo do input troco*/
+#line{
+    background-color: #a2a2a2;
+    height: 1px;
+}
+/*estilo de posicionamento de itens no fim da página da quarta coluna contendo informações de entrega, total e subtotal*/
+#input-column-four{
+    height: 150px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    
+}
+/*estilo do container que contém entrega, total e subtotal*/
+#total{
+    
+    width: 20%;
+    height: 150px;
+    
+}
+/*estilo do span subtotal*/
+#name1{
+    color: #888888;
+}
+/*estilo do span de entrega grátis*/
+#name2{
+    color: #a2a2a2;
+}
+
+/*estilo dos botões de voltar e revisar pedido*/
+.btn{
+    background-color: #fF5f00;
+    border: none;
+}
+
+/*estilo de telas aparti da medida de 1100pixels*/
+@media (max-width:1100px){
+    
+    /*estilo do container onde contém o button fechar*/
+    #close-top{
+        position: relative;
+        left: 100px;
+    }
+
+
+    /*estilo do button de revisar pedido*/
+    #button-two{
+        position: relative;
+        top: 10px;
+    }
+
+}
+
+/*estilo de telas apartir da medida de 885pixels*/
+@media (max-width: 885px){
+    /*estilo da caixa onde contém a progressão numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 150px;
+    }
+    /*estilo da caixa onde contém o button de fechar*/
+    #close-top{
+        position: relative;
+        left: 150px;
+    }
+}
+
+/*estilo de telas apartir da medida de 865pixels*/
+@media (max-width:865px){
+    /*estilo da caixa onde contém o button fechar*/
+    #close-top{
+        position: relative;
+        left: 50px;
+    }
+
+    
+   
+}
+
+/*estilo de telas apartir da medida de 770pixels*/
+@media (max-width:770px){
+    /*estilização co container mãe que agrupa todos os elementos da página*/
+    #monther{
+        height: 900px;
+    }
+    /*estilização do titulo "Endereço de entrega"*/
+    #title{
+        height: 50px;
+    }
+    /*estilo do container onde contém a caixa da pregressão numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 70px;
+    }
+    /*estilo da caixa onde contém o button de fechar*/
+    #close-top{
+        position: relative;
+        left: 20px;
+    }
+
+    /*estilo da primeira coluna de inputs onde agrupa o endereço, dropdown js, numero*/
+    #input-column-one{
+        height: 200px;
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /*estilo da segunda coluna de inputs onde contém ponto de referência e o dropdown js*/
+    #input-column-second{
+        height: 200px;
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        
+
+    }
+    /*estilo do primeiro input endereço*/
+    #prymari-input{
+        height: 70px;
+    }
+    /*estilo do container onde contém total, subtotal, entrega e botões de salvar e revisar pedido*/
+    #total{
+        width: 40%;
+
+    }
+    /*estilo do button revisar*/
+    #button-two{
+        position: relative;
+        top: 10px;
+    }
+    
+
+}
+
+/*estilizaçãode telas com medidas apartir de 500pixels*/
+@media (max-width:500px){
+    /*estilização co container mãe que agrupa todos os elementos da página*/
+    #monther{
+        height: 900px;
+    }
+    /*estilização do titulo "Endereço de entrega"*/
+    #title{
+        height: 50px;
+    }
+     /*estilo do container onde contém a caixa da pregressão numeral*/
+    #number-progress-top{
+        position: relative;
+        right: 70px;
+    }
+    /*estilo da caixa onde contém o button de fechar*/
+    #close-top{
+        position: relative;
+        left: 20px;
+    }
+    /*estilo da primeira coluna de inputs onde agrupa o endereço, dropdown js, numero*/
+    #input-column-one{
+        height: 200px;
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+     /*estilo da segunda coluna de inputs onde contém ponto de referência e o dropdown js*/
+    #input-column-second{
+        height: 200px;
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        
+
+    }
+    /*estilo do primeiro input endereço*/
+    #prymari-input{
+        height: 70px;
+    }
+    /*estilo do container onde contém total, subtotal, entrega e botões de salvar e revisar pedido*/
+    #total{
+        width: 40%;
+
+    }
+    /*estilo do button revisar*/
+    #button-two{
+        position: relative;
+        top: 10px;
+    }
+    
+
+}
+
+
+/*estilizaçãode telas com medidas apartir de 414pixels*/
+@media (max-width:414px){
+    
+    /*estilo da caixa onde contém o button de fechar*/
+    #close-top{
+        position: relative;
+        left: 0;
+    }
+
+   
+    /*estilo do container onde contém total, subtotal, entrega e botões de salvar e revisar pedido*/
+    #total{
+        width: 50%;
+
+    }
+    
+
+}
